@@ -228,6 +228,9 @@ main .content .content-image{
     color: #283618;
   }
 
+  main aside .social-media img{
+    width: 0px;
+  }
 footer {
   padding: 20px;
   color: #ffe8d6;
