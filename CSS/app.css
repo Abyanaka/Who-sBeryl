@@ -115,9 +115,9 @@ main .content-content article {
   }
   
   main .content-content .title {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
     border-radius: 5px;
-    /* padding: 20px; */
+    padding: 10px;
     margin-block: 0rem;
     font-size: 3.5rem;
     text-decoration: underline;
@@ -125,6 +125,7 @@ main .content-content article {
     display: flex;
     /* position: fixed; */
     background-color: #cb997e;
+    margin-top: 20px;
   }
 main .content .content-image{
   grid-column: 2;
