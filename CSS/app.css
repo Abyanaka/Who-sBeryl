@@ -42,7 +42,7 @@ header.navbar-container {
     z-index: 1;
   }
 
-header.navbar-container .logo {
+header.navbar-container .title {
     color: #fefae0;
   }
 
@@ -200,6 +200,7 @@ main .content .content-image{
   main aside .social-media {
     height: 100%;
     display: flex;
+    position: relative;
   }
   main aside .social-media ul {
     padding: 1.5rem 1rem;
@@ -229,7 +230,13 @@ main .content .content-image{
   }
 
   main aside .social-media img{
-    width: 0px;
+    position: absolute; /* Set the image to absolute positioning */
+    top: 210px;
+    right: 0;
+    width: 100px;
+    height: auto;
+    margin-top: 1.5rem;
+    z-index: -1;
   }
 footer {
   padding: 20px;
